@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./style.css">
-	<title>cssMemeSlider</title>
-</head>
-<body>
-	<div class="container">
-		<div class="carousel-wrapper">
-			<ul class="carousel">
-				<li class="carousel__item">
-					<img src="./assets/images/meme-1.png" alt="meme">
-					<h2>Work-life balance</h2>
-				</li>
-				<li class="carousel__item">
-					<img src="./assets/images/meme-2.png" alt="meme">
-					<h2>Keep calm and carry on</h2>
-				</li>
-				<li class="carousel__item">
-					<img src="./assets/images/meme-3.png" alt="meme">
-					<h2>You can't just copy and paste css</h2>
-				</li>
-				<li class="carousel__item">
-					<img src="./assets/images/meme-4.png" alt="meme">
-					<h2>Relax and take it easy</h2>
-				</li>
-			</ul>
-			<div class="pagination-wrapper">
-				<ul class="pagination">
-					<li class="pagination__item">
-						<input type="radio" name="slider" id="meme-1" checked>
-						<label class="btn" for="meme-1"></label>
-					</li>
-					<li class="pagination__item">
-						<input type="radio" name="slider" id="meme-2">
-						<label class="btn" for="meme-2"></label>
-					</li>
-					<li class="pagination__item">
-						<input type="radio" name="slider" id="meme-3">
-						<label class="btn" for="meme-3"></label>
-					</li>
-					<li class="pagination__item">
-						<input type="radio" name="slider" id="meme-4">
-						<label class="btn" for="meme-4"></label>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>cssMemeSlider</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="carousel">
+        <div class="pagination">
+          <input type="radio" name="slider" id="meme1" checked>
+          <label class="pagination__item" for="meme1">
+            <span class="btn"></span>
+          </label>
+          <input type="radio" name="slider" id="meme2">
+          <label class="pagination__item" for="meme2">
+            <span class="btn"></span>
+          </label>
+          <input type="radio" name="slider" id="meme3">
+          <label class="pagination__item" for="meme3">
+            <span class="btn"></span>
+          </label>
+          <input type="radio" name="slider" id="meme4">
+          <label class="pagination__item" for="meme4">
+            <span class="btn"></span>
+          </label>
+        </div>
+        <div class="img-wrap">
+          <div class="carousel-img">
+            <div class="carousel-img__items">
+              <img src="./assets/images/meme-1.png" alt="meme">
+              <img src="./assets/images/meme-2.png" alt="meme">
+              <img src="./assets/images/meme-3.png" alt="meme">
+              <img src="./assets/images/meme-4.png" alt="meme">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-text carousel__text">
+          <div class="carousel-text__items">
+            <p class="carousel-text__item">Work-life balance</p>
+            <p class="carousel-text__item">Keep calm and carry on</p>
+            <p class="carousel-text__item">You can't just copy and paste css</p>
+            <p class="carousel-text__item">Relax and take it easy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
